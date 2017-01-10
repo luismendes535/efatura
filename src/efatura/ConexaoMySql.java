@@ -19,7 +19,7 @@ public class ConexaoMySql {
     Connection con;
     Statement stmt;
     ResultSet rs;
-    String url = "jdbc:mysql://127.0.0.1:3306/mydb?autoReconnect=true&useSSL=false";
+    String url = "jdbc:mysql://127.0.0.1:3306/efatura";
     String user = "root";
     String password ="12345678";
     String driver = "com.mysql.jdbc.Driver";
